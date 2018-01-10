@@ -1,6 +1,15 @@
+html {
+	height: 100%
+}
+
 body {
 	font-family: Arial, sans-serif;
 	font-size: small;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-width: 980px;
+	min-height: 100%;
 }
 
 .top_nav {
@@ -46,4 +55,47 @@ ul:last-child {
 li {
 	display:inline;
 	padding-right: 15px;
+}
+
+.middle_field {
+	display: flex;
+	flex-direction: column;
+	height: 80%;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+input {
+	min-width: 300px;
+	width: 40%;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+	height: 44px;
+	font-size: 16px;
+	margin-top:20px;
+}
+
+input:hover {
+
+}
+
+#list {
+	padding-top: 28px;
+}
+
+.button {
+	border: 1px solid #F7F7F7;
+	background-color: #F7F7F7;
+	font-weight: bold;
+	color: #757575;
+	padding: 10px 16px;
+
+}
+
+.button:hover {
+	border: 1px solid #c6c6c6;
+	background-color: #f8f8f8;
+	color: black;
+	text-decoration: none;
 }
