@@ -6,6 +6,7 @@ body {
 .top_nav {
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
 	margin: 0px 30px;
 	min-width: 244px;
 }
@@ -16,11 +17,22 @@ body {
 	color:white;
 	font-weight: bold;
 	border-radius: 2px;
+	text-decoration: none;
+}
+
+#apps_icon {
+	margin: auto;
+	vertical-align: middle;
+	display: inline-block;
 }
 
 a {
 	text-decoration: none;
 	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 ul {
