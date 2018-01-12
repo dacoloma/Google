@@ -10,6 +10,7 @@ body {
 	justify-content: space-between;
 	min-width: 980px;
 	min-height: 100%;
+	margin: 0;
 }
 
 .top_nav {
@@ -68,7 +69,6 @@ li {
 	height: 80%;
 	justify-content: center;
 	align-items: center;
-
 }
 
 
